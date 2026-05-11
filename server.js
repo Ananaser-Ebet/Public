@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 const http = require('http');
 
-const REAL_PASSWORD = process.env.PASSWORD || 'Jt8mBrY2eD6vNxP4qKwSf';
+const REAL_PASSWORD = process.env.PASSWORD || '';
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
